@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Héricles Emanuel</title>
+  <meta name="title" content="Héricles Emanuel" />
+  <meta name="description" content="Héricles's Portfolio" />
+
+  <link rel="shortcut icon" id="favicon" href="favicon.png">
+  <meta name="author" content="Héricles Emanuel">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link href="./style/style.css" rel="stylesheet">
+  <script>
+    $(document).ready(function () {
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+    });
+  </script>
+  <script src="./js/show-hide.js"></script>
+</head>
+
+<body id="body">
+  <div class="wrapper">
+    <div class="main">
+      <section class="page1">
+        <div class="page_container">
+          <div class="under_page">
+            <h1>Héricles Emanuel</h1>
+            <h2>Computer Science - UFCG</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="page2">
+        <div class="page_container">
+          <div class="left-aligned">
+            <h1>ABOUT</h1>
+            <h2>I'm
+              <a href="https://github.com/hericlesme/" target="_blank">@hericlesme</a> (Héricles Emanuel), a Computer Science student. I love coffe, web and mobile development and
+              also discover new technologies.</h2>
+            <h2>Computer Science at UFCG (Universidade Federal de Campina Grande) since 2017.</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="page3">
+        <div class="page_container">
+          <div class="left-aligned">
+            <div>
+              <h1>PROJECTS</h1>
+            </div>
+            <ul>
+              <li onmouseover="show('#ciniedu')" onmouseout="hide('#ciniedu')">
+                <a target="_blank" href="http://www.ciniedu.com/">
+                  <i class="material-icons">school</i>
+                </a>
+              </li>
+              <li onmouseover="show('#leda')" onmouseout="hide('#leda')">
+                <a target="_blank" href="https://github.com/hericlesme/automated-leda-tasks">
+                  <i class="material-icons">today</i>
+                </a>
+              </li>
+              <li onmouseover="show('#dashboard')" onmouseout="hide('#dashboard')">
+                <a target="_blank" href="https://hericlesme.github.io/PainelAcademico">
+                  <i class="material-icons">dashboard</i>
+                </a>
+              </li>
+              <li onmouseover="show('#lp2')" onmouseout="hide('#lp2')">
+                <a target="_blank" href="https://hericlesme.github.io/Projeto-LP2">
+                  <i class="material-icons">code</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="ciniedu" class="project">
+            <h1 class="project-title">
+              I CINIEDU
+            </h1>
+            <h2 class="project-description">
+              I International Congress of Neuroscience, Social and Educational Inclusion
+            </h2>
+          </div>
+          <div id="leda" class="project">
+            <h1 class="project-title">
+              Automated LEDA Tasks
+            </h1>
+            <h2 class="project-description">
+              Automation of tasks and submissions of LEDA discipline at UFCG
+            </h2>
+          </div>
+          <div id="dashboard" class="project">
+            <h1 class="project-title">
+              Academic Panel
+            </h1>
+            <h2 class="project-description">
+              A Dashboard with academic for schedules view and organization
+            </h2>
+          </div>
+          <div id="lp2" class="project">
+            <h1 class="project-title">
+              LP2 Project
+            </h1>
+            <h2 class="project-description">
+              Final project of the discipline of Laboratory of Programming II at UFCG
+            </h2>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="page4">
+        <div class="page_container">
+          <div class="left-aligned">
+            <h1>
+              CONTACT
+            </h1>
+            <div>
+              <h2>Email</h2>
+              <ul class="contact">
+                <li>
+                  - hericles.me@gmail.com
+                </li>
+                <li>
+                  - hericles.silva@ccc.ufcg.edu.br
+                </li>
+              </ul>
+
+              <h2>Fone</h2>
+              <ul class="contact">
+                <li>
+                  +55 (83) 98145-3686
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
